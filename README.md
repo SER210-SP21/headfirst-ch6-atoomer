@@ -1,1 +1,2 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/CZbM4Dmf)
+The way that the book uses 'ext.nav_version' in the buildbuildscript function in the project gradle file wasn't working (kept saying nav_version was unresolved). So I looked on the Kotlin website and used the way it says which was to add 'val nav_version = 2.7.7" above the plugin implementations in the dependencies function in the app gradle file.
